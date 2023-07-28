@@ -9,14 +9,14 @@
 #include <ArduinoJson.h>
 
 // Replace with your network credentials
-const char* ssid = "POCO X3 Pro";
-const char* password = "trh970uvekxqni4f";
+const char* ssid = "XXXXXXXXXXXXXXXXXX";
+const char* password = "XXXXXXXXXXXXXXXXXXXXXX";
 
 // Initialize Telegram BOT
-#define BOTtoken "5941952548:AAFuNZLAwWK5xeHv-27XGjFqNQmFCcAJIq0"  // your Bot Token (Get from Botfather)
+#define BOTtoken "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx"  // your Bot Token (Get from Botfather)
 
 // Use @myidbot to find out the chat ID of an individual or a group
-#define CHAT_ID "5741637349"
+#define CHAT_ID "XXXXXXXXXXXXXXXXXXXXXx"
 
 #ifdef ESP8266
   X509List cert(TELEGRAM_CERTIFICATE_ROOT);
